@@ -23,9 +23,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-container {
     display: flex;
+    flex-direction: column;
     background-image: url('/img/Banner-header.png');
     background-size: cover;
     background-position: center;
     height: 720px;
     width: 100%;
+}
+
+
+#header-itens {
+    display: flex;
+    
+}
+
+#header-logo {
+    display: flex;
+    width: 10%;
+    padding: 15px;
+}
+
+#header-logo img {
+    width: 50px;
+}
+
+#nav-bar {
+    display: flex;
+    color: var(--branco);
 }
