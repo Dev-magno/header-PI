@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+:root{
+    --cor-primaria: #B5C18E;
+    --cor-secundaria: #EADBC8;
+    --cor-tres: #C7B7A3;
+    --corquatro: #F1F1F1;
+    --branco: #FFFFFF;
+    --preto: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--branco);
+}
+
+.header-container {
+    display: flex;
+    background-image: url('/img/Banner-header.png');
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    width: 100%;
+}
