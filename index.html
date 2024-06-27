@@ -10,33 +10,41 @@
     <header class="header-container">
         <div id="header-itens">
             <div id="header-logo">
-                <img src="/img/book.png" alt="logo do site">
+                <img src="/img/e-book.png" alt="logo do site">
             </div>
 
-            <div id="header-input">
-                <input type="search" name="" id=""><img src="/img/search.png" alt="imagem para fazer busca no site">
-            </div>
+            <form action="" id="header-busca">
+                <input type="search" name="buscar" id="buscar" placeholder="Buscar...">
+                <button type="submit" id="btn-buscar"><img src="/img/search.png" alt="imagem para fazer busca no siteimagem para fazer busca no site"  width="30px"></button>
+            </form>
+
+            <!-- <div class="header-busca">
+                <input type="search" name="" id="buscar"><img src="/img/search.png" alt="imagem para fazer busca no site">
+            </div> -->
             
             <nav id="nav-bar">
                 <ul>
-                    <li>Quem somos</li>
-                    <li>Livros</li>
-                    <li>Trocas</li>
-                    <li>Lista de Desejos</li>
-                    <li>Ajuda</li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Livros</a></li>
+                    <li><a href="#">Trocas</a></li>
+                    <li><a href="#">Lista de Desejos</a></li>
+                    <li><a href="#">Ajuda</a></li>
                 </ul>
             </nav>
 
             <div id="header-login">
-                <img src="/img/persson-book.png" alt="imagem para fazer login ou cadastrar no site">
+                <a href="#"><img src="/img/persson-book.png" alt="imagem para fazer login ou cadastrar no site"></a>
+                <p>Login</p>
             </div>
         </div>
 
         <div id="header-content">
-            <h1>A RPOCUARA DE LIVROS</h1>
+            <div id="header-desc">
+                <h1>A PROCUARA DE LIVROS</h1>
+                <p>Aqui é o lugar certo</p>
+            </div>  
         </div>
 
-        
     </header>
 </body>
 </html>
