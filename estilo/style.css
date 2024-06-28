@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-container {
     display: flex;
     flex-direction: column;
-    background-image: url('/img/Banner-header.png');
+    background-image: url('/img/Bookstore\ Banner.png');
     background-size: cover;
     background-position: center;
     height: 720px;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     color: var(--branco);
     justify-content: center;
-    width: 34%;
+    /* width: 34%; */
 }
 
 #nav-bar ul {
