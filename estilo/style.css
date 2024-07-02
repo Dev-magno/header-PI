@@ -39,12 +39,13 @@ h1, h2, h3, h4, h5, h6 {
 #header-itens {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 
 #header-logo {
     display: flex;
-    width: 5%;
+    width: 100px;
     padding: 15px;
 }
 
@@ -83,7 +84,9 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     color: var(--branco);
     justify-content: center;
-    /* width: 34%; */
+    margin: 0;
+    padding: 0;
+    gap: 15px;
 }
 
 #nav-bar ul {
@@ -94,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav-bar a {
-    /* background-color: var(--cor-primaria); */
     text-decoration: none;
     color: var(--branco);
     margin-right: 1.4rem;
@@ -111,8 +113,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #header-login {
     display: flex; 
-    /* flex-direction: column;  */
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -123,12 +123,11 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-#header-login img {
-    width: 50px; 
-    height: 50px; 
+#header-login img { 
     display: flex; 
     flex-direction: column;
     align-items: center;
+    width: 40px;
 }
 
 
@@ -255,8 +254,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-
+ /* Responsividade */
+@media(width <= 600px) {
     .section-cadastro{
         height: auto;
     }
@@ -310,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
         cursor: pointer;
         font-weight: bold;
     }
+
 
 }
 
